@@ -77,12 +77,14 @@ a{
         transform: scale(1, 1);
     }
 }
+
 /*
 ------------------------
 ------------------------
  ALL BUTTON STYLE HERE
  -----------------------
  ----------------------- */
+
 .style-btn {
     height: 44px;
     width: 168px;
@@ -98,9 +100,6 @@ a{
 }
 
 
-
-
-
 .style-btn span {
     cursor: pointer;
     display: inline-block;
@@ -111,6 +110,7 @@ a{
 .style-btn:hover span {
     padding-right: 25px;
 }
+
 
 /*
 ------------------------
@@ -174,12 +174,14 @@ a{
 
 }
 
+
 /*
 ------------------------
 ------------------------
  MATCH RECENT SCORE SECTION STYLE HERE
  -----------------------
  ----------------------- */
+
 
  .fixture-section{
     width: 100%;
@@ -241,6 +243,7 @@ a{
  HIGHLIGHT SECTION STYLE HERE
  -----------------------
  ----------------------- */
+
 
 .highlight-section{
     margin-bottom: 100px;
@@ -347,17 +350,21 @@ MEDIA RESPONSIVE STYLE  HERE
 
 
 
- 
+
 /*
 ------------------------
 ------------------------
 MOBILE DEVICES RESPONSIVE STYLE  HERE
  -----------------------
  ----------------------- */
+
 @media  screen and (max-width: 688px) {
 
     .top-section{
         width: 100%;
+    }
+    .container{
+        margin: 0px 0px;
     }
     .half-page-width img{
         width: 100%;
@@ -398,7 +405,8 @@ PAD DEVICES RESPONSIVE STYLE  HERE
         grid-row-gap: 30px;
         grid-column-gap: 5%;
         justify-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        margin-left: 20%;
     
     }
     .half-page-side img{
@@ -418,7 +426,7 @@ MOBILE OR PC DEVICES RESPONSIVE STYLE  HERE
  ----------------------- */
     
 }
-@media  screen and (min-width:990px) and (max-width:1312) {
+@media  screen and (min-width:990px) and (max-width:1140) {
 
     .players{
         display: grid;
